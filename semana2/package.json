@@ -1,0 +1,18 @@
+{
+    "name": "semana2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "challenge1.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "jest --verbose"
+    },
+    "keywords": [],
+    "author": "Academlo",
+    "license": "ISC",
+    "dependencies": {
+        "jest": "^27.0.6"
+    }
+}
