@@ -7,12 +7,16 @@
         "test": "test"
     },
     "scripts": {
-        "test": "jest --verbose"
+        "test": "jest --verbose",
+        "dev": "nodemon start"
     },
     "keywords": [],
     "author": "Academlo",
     "license": "ISC",
     "dependencies": {
-        "jest": "^27.0.6"
+        "jest": "^27.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.12"
     }
 }
