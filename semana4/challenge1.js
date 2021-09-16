@@ -1,12 +1,12 @@
 function keysAndValues(objInput) {
     //Implementación
-    let arrayObjects = {string:{},number:{},boolean:{}}
     
-    console.log(objInput);
-    objInput.sort();
-
+    const sortObject = obj => Object.keys(obj).sort().reduce((res, key) => (res[key] = obj[key], res), {})
+    let resultSort = sortObject(objInput);
+    return [Object.keys(resultSort), Object.values(resultSort)];
+    
+    
 }
 
-keysAndValues({ a: 1, c: 3, b: 2});
 
 module.exports = keysAndValues;
